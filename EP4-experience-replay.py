@@ -14,8 +14,8 @@ tf.set_random_seed(1)
 TAU = 0.99
 MAX_EPISODES = 2000
 LR_A = 0.0005  # learning rate for actor
-LR_C = 0.0005  # learning rate for critic
-GAMMA = 0.999  # reward discount
+LR_C = 0.0008  # learning rate for critic
+GAMMA = 0.93  # reward discount
 REPLACE_ITER_A = 1700
 REPLACE_ITER_C = 1500
 MEMORY_CAPACITY = 200000
