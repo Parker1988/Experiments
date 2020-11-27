@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import gym
 
-EP_MAX = 5000
+EP_MAX = 2000
 EP_LEN = 300
 GAMMA = 0.9
 A_LR = 0.0001
