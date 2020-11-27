@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import gym, threading, queue
 
-EP_MAX = 5000
+EP_MAX = 2000
 EP_LEN = 300
 N_WORKER = 3                # parallel workers
 GAMMA = 0.9                 # reward discount factor
