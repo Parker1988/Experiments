@@ -1,6 +1,6 @@
 """
 experiment 1
-DDPG on 'Pendulum-v0'.
+DPPO on 'Pendulum-v0'.
 
 """
 
