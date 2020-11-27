@@ -12,11 +12,11 @@ import gym
 
 EP_MAX = 2000
 EP_LEN = 300
-GAMMA = 0.9
+GAMMA = 0.99
 A_LR = 0.0001
 C_LR = 0.0002
 TAU = 0.97
-BATCH = 32
+BATCH = 64
 er_bath_num = 100
 er_max = -2300
 RESTORE_COUNT = 350
