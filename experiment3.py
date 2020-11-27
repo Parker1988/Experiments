@@ -11,7 +11,7 @@ import shutil
 import matplotlib.pyplot as plt
 np.random.seed(1)
 tf.set_random_seed(1)
-TAU = 0.99
+TAU = 0.98
 MAX_EPISODES = 2000
 LR_A = 0.0005  # learning rate for actor
 LR_C = 0.0005  # learning rate for critic
